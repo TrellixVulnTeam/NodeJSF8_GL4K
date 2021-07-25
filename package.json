@@ -13,5 +13,22 @@
   },
   "dependencies": {
     "node-sass": "^6.0.1"
-  }
+  },
+  "name": "nodejsf8",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharrfire/NodeJSF8.git"
+  },
+  "keywords": [
+    "blog",
+    "f8"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharrfire/NodeJSF8/issues"
+  },
+  "homepage": "https://github.com/Sharrfire/NodeJSF8#readme",
+  "description": ""
 }
