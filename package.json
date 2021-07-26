@@ -15,6 +15,14 @@
     "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo\"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write "
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "node-sass": "^6.0.1"
   },
@@ -33,16 +41,7 @@
   "bugs": {
     "url": "https://github.com/Sharrfire/NodeJSF8/issues"
   },
-  "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write "
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm test",
-      "...": "..."
-    }
-  },
+  
   "homepage": "https://github.com/Sharrfire/NodeJSF8#readme",
   "description": ""
 }
