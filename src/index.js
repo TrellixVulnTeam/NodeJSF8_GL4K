@@ -19,17 +19,17 @@ app.engine(
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
 
-app.get('/', (req, res) => {
-    return res.render('home');
-});
-app.get('/news', (req, res) => {
-    return res.render('news');
-});
-app.get('/search', (req, res) => {
-    console.log(req.query);
+            app.get('/', (req, res) => {
+                return res.render('home');
+            });
+            app.get('/news', (req, res) => {
+                return res.render('news');
+            });
+            app.get('/search', (req, res) => {
+                console.log(req.query);
 
-    return res.render('search');
-});
-app.listen(port, () =>
-    console.log(`Example app listening at  http://localhost:${port}`),
-);
+                return res.render('search');
+            });
+            app.listen(port, () =>
+                console.log(`Example app listening at  http://localhost:${port}`),
+            );
