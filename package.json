@@ -24,6 +24,7 @@
     }
   },
   "dependencies": {
+    "mongoose": "^5.13.3",
     "node-sass": "^6.0.1"
   },
   "name": "nodejsf8",
@@ -41,7 +42,6 @@
   "bugs": {
     "url": "https://github.com/Sharrfire/NodeJSF8/issues"
   },
-  
   "homepage": "https://github.com/Sharrfire/NodeJSF8#readme",
   "description": ""
 }
