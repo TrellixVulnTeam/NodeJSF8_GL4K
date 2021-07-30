@@ -1,10 +1,26 @@
 @import 'variables';
-h1 {
-    color: $red-color;
+a{
+    text-decoration:none;
 }
-h2 {
-    color: $gray-color;
+.color-white{
+    color:#fff
 }
-h3 {
-    color: $green-color;
+.card-course-item{
+margin-top: 16px;
+}
+.user-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.modal-content{
+    margin-top: 50%;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.checkbox-select-all-options{
+    width: 160px;
+    margin: 0 16px;
 }
