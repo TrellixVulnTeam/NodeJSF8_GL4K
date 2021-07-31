@@ -14,7 +14,3 @@ router.get("/:slug", coursesController.show);
 
 
 module.exports = router;
-
-
-
-
