@@ -26,7 +26,7 @@ CourseSchema.query.sortable= function(req){
    })
  }
  return this;
-} 
+}
 //add plugin
 mongoose.plugin(slug);
 CourseSchema.plugin(mongooseDelete, { deletedAt: true, overrideMethods: "all" });
